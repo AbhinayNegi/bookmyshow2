@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-11T15:26:11 IST" name="Default suite" finished-at="2022-07-11T15:27:42 IST" duration-ms="91153">
+    <groups>
+    </groups>
+    <test started-at="2022-07-11T15:26:11 IST" name="Default test" finished-at="2022-07-11T15:27:42 IST" duration-ms="91153">
+      <class name="test.BookMyShowTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:test.BookMyShowTest@2e4b8173]" started-at="2022-07-11T15:26:11 IST" name="init" finished-at="2022-07-11T15:26:23 IST" duration-ms="12166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="bookTickets()[pri:1, instance:test.BookMyShowTest@2e4b8173]" started-at="2022-07-11T15:26:23 IST" name="bookTickets" finished-at="2022-07-11T15:26:37 IST" duration-ms="13675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTickets -->
+        <test-method signature="movieDetails()[pri:0, instance:test.BookMyShowTest@2e4b8173]" started-at="2022-07-11T15:26:37 IST" name="movieDetails" finished-at="2022-07-11T15:26:38 IST" depends-on-methods="test.BookMyShowTest.bookTickets" duration-ms="1581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movieDetails -->
+        <test-method signature="seatSelection()[pri:0, instance:test.BookMyShowTest@2e4b8173]" started-at="2022-07-11T15:26:38 IST" name="seatSelection" finished-at="2022-07-11T15:26:39 IST" depends-on-methods="test.BookMyShowTest.movieDetails" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seatSelection -->
+        <test-method signature="payment()[pri:0, instance:test.BookMyShowTest@2e4b8173]" started-at="2022-07-11T15:26:39 IST" name="payment" finished-at="2022-07-11T15:27:02 IST" depends-on-methods="test.BookMyShowTest.seatSelection" duration-ms="22656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method signature="loginOTP()[pri:0, instance:test.BookMyShowTest@2e4b8173]" started-at="2022-07-11T15:27:02 IST" name="loginOTP" finished-at="2022-07-11T15:27:15 IST" depends-on-methods="test.BookMyShowTest.payment" duration-ms="13068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOTP -->
+        <test-method signature="home_page_test()[pri:0, instance:test.BookMyShowTest@2e4b8173]" started-at="2022-07-11T15:27:15 IST" name="home_page_test" finished-at="2022-07-11T15:27:17 IST" depends-on-methods="test.BookMyShowTest.loginOTP" duration-ms="1903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_page_test -->
+        <test-method signature="list_your_show_link_test()[pri:0, instance:test.BookMyShowTest@2e4b8173]" started-at="2022-07-11T15:27:17 IST" name="list_your_show_link_test" finished-at="2022-07-11T15:27:17 IST" depends-on-methods="test.BookMyShowTest.home_page_test" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- list_your_show_link_test -->
+        <test-method signature="form_fill_test()[pri:0, instance:test.BookMyShowTest@2e4b8173]" started-at="2022-07-11T15:27:17 IST" name="form_fill_test" finished-at="2022-07-11T15:27:42 IST" depends-on-methods="test.BookMyShowTest.list_your_show_link_test" duration-ms="25133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_fill_test -->
+      </class> <!-- test.BookMyShowTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
